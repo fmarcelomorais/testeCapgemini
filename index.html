@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste Capgemini</title>
+</head>
+<body>
+    <main>
+        <h1>Teste de Programação</h1>
+        <div class="questao">
+            <p><strong>1</strong> - Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.</p>
+            <div class="tarefa">
+                <label for="valor">Valor</label>
+                <input type="number" name="valor" id="valor" >
+                <button id="btn" onclick="escada()">Resposta</button>
+                <div id="resposta">
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="questao">
+            <p><strong>2</strong> - Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:</p>
+            <ul>
+                <li>Possui no mínimo 6 caracteres.</li>
+                <li>Contém no mínimo 1 digito.</li>
+                <li>Contém no mínimo 1 letra em minúsculo.</li>
+                <li>Contém no mínimo 1 letra em maiúsculo.</li>
+                <li>Contém no mínimo 1 caractere especial. Os caracteres especiais são: <strong>!@#$%^&*()-+</strong></li>
+            </ul>   
+            <p>Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura</p>
+            <div class="tarefa">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" >
+                <button id="btn" onclick="senhaForte()">Verificar</button>
+                <div id="resposta2">
+
+                </div>
+            </div>
+            <hr>
+        </main>
+    <script src="/questao1.js"></script>
+    <script src="/questao2.js"></script>
+</body>
+</html>
