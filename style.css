@@ -23,3 +23,10 @@ h1{
 #resposta2{
     padding: 20px;
 }
+
+.erro{
+    color: red;
+}
+.ok{
+    color: green;
+}
